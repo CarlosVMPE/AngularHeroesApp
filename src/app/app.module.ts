@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
 
-import { APP_ROUTING } from './app.routes';
+import { AppRoutingModule } from './app.routes';
 
 import { HeroesService } from "./services/heroes.service";
 
@@ -24,7 +24,7 @@ import { KeysPipe } from './pipes/keys.pipe';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    APP_ROUTING
+    AppRoutingModule
   ],
   providers: [
     HeroesService
